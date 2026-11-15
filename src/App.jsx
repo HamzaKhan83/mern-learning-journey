@@ -34,6 +34,7 @@ function App() {
             title="Total Revenue"
             number={2500000}
             description="Revenue Generated"/>
+          
           </div>
 
 

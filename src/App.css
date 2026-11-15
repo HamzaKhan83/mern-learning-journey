@@ -1,38 +1,46 @@
 nav {
-  background: #172554;
-  color: white;
-  padding: 20px;
+    background: #172554;
+    color: white;
+    padding: 20px;
 }
 
 aside {
-  width: 200px;
-  padding: 20px;
-  background: #f1f5f9;
+    width: 200px;
+    padding: 20px;
+    background: #f1f5f9;
 }
 
 main {
-  padding: 25px;
-  display: flex;
-  flex-direction: column; 
-  gap: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.mainBody{
-
-  display: flex;
-  align-items: stretch;
-  gap: 10px;
+.mainBody {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
 }
 
-.cardDiv{
-display: flex;
-align-items: center;
-gap: 20px;
+.cardDiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.WelcomeMessage{
-  background-color: chocolate;
-  padding: 15px;
-  border-radius: 8px;
+.WelcomeMessage {
+    background-color: chocolate;
+    padding: 15px;
+    border-radius: 8px;
 }
 
+.cardContainer {
+    background-color: #ffffff;
+    color: #172554;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}

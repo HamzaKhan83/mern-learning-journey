@@ -1,4 +1,7 @@
-function DashboardCard({title,number,description}) {
+function DashboardCard({
+    title="Untitled",
+    number=0,
+    description="No description available."}) {
     return (
         <div>
             <h3>{title}</h3>

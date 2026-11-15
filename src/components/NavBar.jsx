@@ -1,9 +1,14 @@
 import WelcomeMessage from "./WelcomeMessage";  
+import CardContainer from "./CardContainer";    
+
 function Navbar(){
 
     return (
         <nav>
-            <WelcomeMessage />
+            <CardContainer>
+                <WelcomeMessage />
+            </CardContainer>
+
             <h2>StockPilot</h2>
             <p>Inventory Management System</p>
         </nav>

@@ -2,6 +2,8 @@
 
 A hands-on journey into full-stack web development, documenting my progress as I learn and build projects using the MERN stack.
 
+This repository contains my daily coding practice, learning exercises, concepts, and projects as I work towards becoming a full-stack developer.
+
 ## 🎯 Goal
 
 Develop strong full-stack development skills through consistent practice, practical projects, and understanding concepts rather than simply copying code.
@@ -25,20 +27,48 @@ Develop strong full-stack development skills through consistent practice, practi
 - [x] Project setup using Vite
 - [x] Understanding React project structure
 - [x] Components and JSX
-- [x] Props and reusable components
+- [x] Creating reusable components
+- [x] Props and passing data between components
 - [ ] State and event handling
-- [ ] Hooks
+- [ ] React Hooks
+- [ ] Conditional rendering
+- [ ] Lists and keys
 - [ ] React Router
 - [ ] API integration
+- [ ] Material UI
+- [ ] Building complete React applications
 
-*Progress will be updated as new concepts are completed.*
+### Backend Development
 
-## 📁 Repository Structure
+- [ ] Node.js fundamentals
+- [ ] Express.js
+- [ ] REST APIs
+- [ ] MongoDB
+- [ ] Database integration
+- [ ] Authentication and authorization
+
+*Progress will be updated as new concepts and milestones are completed.*
+
+## 📁 Project Structure
 
 ```text
 mern-learning-journey/
+│
 ├── public/
+│
 ├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── DashboardCard.jsx
+│   │   ├── NavBar.jsx
+│   │   ├── SideBar.jsx
+│   │   └── WelcomeMessage.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
@@ -50,37 +80,51 @@ mern-learning-journey/
 
 ## ▶️ Running the Project
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/HamzaKhan83/mern-learning-journey.git
 ```
 
-Navigate into the project:
+### 2. Navigate into the project
 
 ```bash
 cd mern-learning-journey
 ```
 
-Install dependencies:
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-## 📈 My Commitment
+The application will be available at the local URL displayed in your terminal, usually:
 
-- Practice consistently.
-- Commit meaningful progress to GitHub.
-- Build real-world projects.
-- Focus on understanding, not just completing tutorials.
+`http://localhost:5173`
+
+## 📈 Development Approach
+
+My learning approach focuses on:
+
+- Understanding concepts before implementing them.
+- Writing code independently through practice exercises.
+- Building reusable and maintainable components.
+- Learning through hands-on projects.
+- Using Git and GitHub to track development progress.
+- Maintaining consistent and meaningful commits.
+
+## 📅 Progress Tracking
+
+This repository will continuously evolve as I learn new technologies and complete projects.
+
+Each milestone will include practical implementations, code improvements, and documentation updates.
 
 ---
 
-**This repository documents my journey from learning React to becoming a full-stack MERN developer.**
+**From React fundamentals to full-stack MERN development — one commit at a time.** 💻

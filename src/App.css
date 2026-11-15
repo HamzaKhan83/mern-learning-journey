@@ -1,0 +1,38 @@
+nav {
+  background: #172554;
+  color: white;
+  padding: 20px;
+}
+
+aside {
+  width: 200px;
+  padding: 20px;
+  background: #f1f5f9;
+}
+
+main {
+  padding: 25px;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+}
+
+.mainBody{
+
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.cardDiv{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.WelcomeMessage{
+  background-color: chocolate;
+  padding: 15px;
+  border-radius: 8px;
+}
+

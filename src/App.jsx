@@ -18,22 +18,26 @@ function App() {
             <DashboardCard 
             title="Total Products"
             number={200}
-            description="Products in Inventory"/>
+            description="Products in Inventory"
+            productName ="Mouse"/>
 
             <DashboardCard 
             title="Total Orders"
             number={45}
-            description="Orders Received"/>
+            description="Orders Received"
+            productName="Keyboard"/>
 
             <DashboardCard 
             title="Low Stock Items"
             number={7}
-            description="Items requiring restocking"/>
+            description="Items requiring restocking"
+            productName="LCD"/>
 
             <DashboardCard 
             title="Total Revenue"
             number={2500000}
-            description="Revenue Generated"/>
+            description="Revenue Generated"
+            productName="kkk"/>
           
           </div>
 

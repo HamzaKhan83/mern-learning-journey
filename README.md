@@ -29,10 +29,15 @@ Develop strong full-stack development skills through consistent practice, practi
 - [x] Components and JSX
 - [x] Creating reusable components
 - [x] Props and passing data between components
-- [ ] State and event handling
-- [ ] React Hooks
+- [x] Event handling and onClick
+- [x] State management using useState
+- [x] Functional state updates
+- [x] Understanding React re-rendering
+- [x] Practical Counter component
+- [x] Product Quantity and Inventory Management component
 - [ ] Conditional rendering
 - [ ] Lists and keys
+- [ ] React Hooks
 - [ ] React Router
 - [ ] API integration
 - [ ] Material UI
@@ -62,7 +67,9 @@ mern-learning-journey/
 │   │   ├── DashboardCard.jsx
 │   │   ├── NavBar.jsx
 │   │   ├── SideBar.jsx
-│   │   └── WelcomeMessage.jsx
+│   │   ├── WelcomeMessage.jsx
+│   │   ├── Counter.jsx
+│   │   └── ProductQuantity.jsx
 │   │
 │   ├── App.css
 │   ├── App.jsx
@@ -124,6 +131,12 @@ My learning approach focuses on:
 This repository will continuously evolve as I learn new technologies and complete projects.
 
 Each milestone will include practical implementations, code improvements, and documentation updates.
+
+## 📝 P.S. — Learning in Progress
+
+This repository is actively being developed as part of my learning journey. Some files, components, or code implementations may be experimental, temporary, or included purely for practice and understanding specific concepts. They may not all be necessary in a production application.
+
+The focus is on learning, experimenting, making mistakes, and improving with every milestone.
 
 ---
 

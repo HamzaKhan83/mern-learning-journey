@@ -2,6 +2,7 @@ import Navbar from "./components/NavBar"
 import Sidebar from "./components/SideBar"
 import DashboardCard from "./components/DashboardCard"
 import "./App.css";
+import Inventory from "./components/Inventory";
 
 function App() {
   return(
@@ -40,6 +41,8 @@ function App() {
             productName="kkk"/>
           
           </div>
+          <Inventory />
+
 
 
         </main>

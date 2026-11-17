@@ -29,18 +29,26 @@ Develop strong full-stack development skills through consistent practice, practi
 - [x] Components and JSX
 - [x] Creating reusable components
 - [x] Props and passing data between components
+- [x] Component composition and children props
 - [x] Event handling and onClick
 - [x] State management using useState
 - [x] Functional state updates
 - [x] Understanding React re-rendering
 - [x] Practical Counter component
 - [x] Product Quantity and Inventory Management component
-- [ ] Conditional rendering
-- [ ] Lists and keys
-- [ ] React Hooks
+- [x] Conditional rendering (if/else, ternary, logical AND)
+- [x] Rendering lists using map()
+- [x] Understanding unique keys in React
+- [x] Filtering arrays using filter()
+- [x] Method chaining (filter() and map())
+- [x] Building an Inventory component with product availability and stock filtering
+- [ ] Forms and controlled components
+- [ ] useEffect and API integration
 - [ ] React Router
-- [ ] API integration
+- [ ] Context API and prop drilling
+- [ ] Custom Hooks
 - [ ] Material UI
+- [ ] Authentication UI and protected routes
 - [ ] Building complete React applications
 
 ### Backend Development
@@ -52,8 +60,6 @@ Develop strong full-stack development skills through consistent practice, practi
 - [ ] Database integration
 - [ ] Authentication and authorization
 
-*Progress will be updated as new concepts and milestones are completed.*
-
 ## 📁 Project Structure
 
 ```text
@@ -63,13 +69,17 @@ mern-learning-journey/
 │
 ├── src/
 │   ├── assets/
+│   │
 │   ├── components/
 │   │   ├── DashboardCard.jsx
 │   │   ├── NavBar.jsx
 │   │   ├── SideBar.jsx
 │   │   ├── WelcomeMessage.jsx
+│   │   ├── CardContainer.jsx
 │   │   ├── Counter.jsx
-│   │   └── ProductQuantity.jsx
+│   │   ├── ProductQuantity.jsx
+│   │   ├── ProductAvailability.jsx
+│   │   └── Inventory.jsx
 │   │
 │   ├── App.css
 │   ├── App.jsx

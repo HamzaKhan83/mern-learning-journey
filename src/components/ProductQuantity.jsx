@@ -6,23 +6,23 @@ function ProductQuantity({productName}){
 
     function sell(){
         if(count === 0){
-            alert("No products in Inventory. Please restock to sell.")
+            alert("No products in Inventory. Please restock to sell.");
         }else{
-            setCount(previous => previous - 1)
+            setCount(previous => previous - 1);
         }
     }
     function sellFive(){
         if(count <5){
-            alert("Less than 5. Please restock or sell less.")
+            alert("Less than 5. Please restock or sell less.");
         }else{
             setCount(previous => previous - 5);
         }
     }
     function restockFive(){
-        setCount(previous => previous + 5)
+        setCount(previous => previous + 5);
     }
     function restockTen(){
-        setCount(previous => previous + 10)
+        setCount(previous => previous + 10);
     }
 
 

@@ -1,5 +1,6 @@
 import Counter from "./Counter";
 import ProductQuantity from "./ProductQuantity";
+import ProductAvailability from "./ProductAvailability";
 
 function DashboardCard({
     title="Untitled",
@@ -13,6 +14,9 @@ function DashboardCard({
             <p>{description}</p>
             <Counter />
             <ProductQuantity productName={productName}/>
+            <ProductAvailability productName="Mouse" quantity={5}/>
+            <ProductAvailability productName="Key" quantity={0}/>
+            <ProductAvailability productName="LED" quantity={10}/>
         </div>
     );
 }

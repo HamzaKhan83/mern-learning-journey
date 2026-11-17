@@ -3,6 +3,7 @@ import Sidebar from "./components/SideBar"
 import DashboardCard from "./components/DashboardCard"
 import "./App.css";
 import Inventory from "./components/Inventory";
+import ProductForm from "./components/ProductForm";
 
 function App() {
   return(
@@ -42,6 +43,7 @@ function App() {
           
           </div>
           <Inventory />
+          <ProductForm />
 
 
 

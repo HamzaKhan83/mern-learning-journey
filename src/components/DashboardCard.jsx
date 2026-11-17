@@ -16,7 +16,7 @@ function DashboardCard({
             <ProductQuantity productName={productName}/>
             <ProductAvailability productName="Mouse" quantity={5}/>
             <ProductAvailability productName="Key" quantity={0}/>
-            <ProductAvailability productName="LED" quantity={10}/>
+            <ProductAvailability productName="LED" quantity={5}/>
         </div>
     );
 }

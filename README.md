@@ -42,7 +42,14 @@ Develop strong full-stack development skills through consistent practice, practi
 - [x] Filtering arrays using filter()
 - [x] Method chaining (filter() and map())
 - [x] Building an Inventory component with product availability and stock filtering
-- [ ] Forms and controlled components
+- [x] Controlled components and multiple input fields
+- [x] Handling form submissions using onSubmit
+- [x] Preventing default form behavior using preventDefault()
+- [x] Creating product objects from form inputs
+- [x] Updating arrays immutably using the spread operator
+- [x] Dynamically rendering submitted products using map()
+- [ ] Resetting form inputs after submission
+- [ ] Form validation and improvements
 - [ ] useEffect and API integration
 - [ ] React Router
 - [ ] Context API and prop drilling
@@ -79,7 +86,8 @@ mern-learning-journey/
 │   │   ├── Counter.jsx
 │   │   ├── ProductQuantity.jsx
 │   │   ├── ProductAvailability.jsx
-│   │   └── Inventory.jsx
+│   │   ├── Inventory.jsx
+│   │   └── ProductForm.jsx
 │   │
 │   ├── App.css
 │   ├── App.jsx
@@ -133,6 +141,7 @@ My learning approach focuses on:
 - Writing code independently through practice exercises.
 - Building reusable and maintainable components.
 - Learning through hands-on projects.
+- Understanding React state, component rendering, and data flow.
 - Using Git and GitHub to track development progress.
 - Maintaining consistent and meaningful commits.
 

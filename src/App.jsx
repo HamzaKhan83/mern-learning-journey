@@ -4,6 +4,9 @@ import DashboardCard from "./components/DashboardCard"
 import "./App.css";
 import Inventory from "./components/Inventory";
 import ProductForm from "./components/ProductForm";
+import EffectDemo from "./components/EffectDemo";
+import Timer from "./components/Timer";
+import TitleTracker from "./components/TitleTracker";
 
 function App() {
   return(
@@ -44,6 +47,9 @@ function App() {
           </div>
           <Inventory />
           <ProductForm />
+          <EffectDemo />
+          <Timer />
+          <TitleTracker />
 
 
 

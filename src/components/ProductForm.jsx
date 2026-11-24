@@ -18,6 +18,10 @@ function ProductForm (){
 
         setProducts(previousProducts => [...previousProducts, addedProduct]);
 
+        setProductName("");
+        setPrice(0);
+        setQuantity(0);
+
         
     }
 

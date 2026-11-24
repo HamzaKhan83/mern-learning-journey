@@ -48,9 +48,17 @@ Develop strong full-stack development skills through consistent practice, practi
 - [x] Creating product objects from form inputs
 - [x] Updating arrays immutably using the spread operator
 - [x] Dynamically rendering submitted products using map()
-- [ ] Resetting form inputs after submission
-- [ ] Form validation and improvements
-- [ ] useEffect and API integration
+- [x] Resetting form inputs after submission
+- [x] Basic form validation and improvements
+- [x] Understanding side effects and useEffect
+- [x] Understanding useEffect dependency arrays
+- [x] Running effects when specific dependencies change
+- [x] Understanding effect cleanup functions
+- [x] Using setInterval() and clearInterval()
+- [x] Building a Timer component using useEffect
+- [x] Building a TitleTracker component using useEffect
+- [ ] Day 6 final assessment
+- [ ] API integration using Fetch and Axios
 - [ ] React Router
 - [ ] Context API and prop drilling
 - [ ] Custom Hooks
@@ -87,7 +95,10 @@ mern-learning-journey/
 │   │   ├── ProductQuantity.jsx
 │   │   ├── ProductAvailability.jsx
 │   │   ├── Inventory.jsx
-│   │   └── ProductForm.jsx
+│   │   ├── ProductForm.jsx
+│   │   ├── EffectDemo.jsx
+│   │   ├── Timer.jsx
+│   │   └── TitleTracker.jsx
 │   │
 │   ├── App.css
 │   ├── App.jsx
@@ -142,6 +153,7 @@ My learning approach focuses on:
 - Building reusable and maintainable components.
 - Learning through hands-on projects.
 - Understanding React state, component rendering, and data flow.
+- Understanding side effects and component lifecycle behavior.
 - Using Git and GitHub to track development progress.
 - Maintaining consistent and meaningful commits.
 
